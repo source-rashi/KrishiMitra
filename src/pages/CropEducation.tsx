@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
 import { Play, BookOpen, Download } from 'lucide-react';
 
@@ -13,14 +13,14 @@ export default function CropEducation() {
     },
     {
       name: 'Rice',
-      image: 'https://images.unsplash.com/photo-1536617621572-1d5f1e6269a0?w=400&h=300&fit=crop',
+      image: 'https://www.isayorganic.com/cdn/shop/files/iso__0005_WhiteRice1_720x.jpg?v=1736270108',
       description: 'Discover modern rice farming methods and water management.',
       season: 'Monsoon',
       difficulty: 'Hard'
     },
     {
       name: 'Cotton',
-      image: 'https://images.unsplash.com/photo-1594897030264-ab7d87efc473?w=400&h=300&fit=crop',
+      image: 'https://us.timacagro.com/app/uploads/sites/32/2024/06/Cotton_062024.png.webp',
       description: 'Expert tips for cotton farming and pest control.',
       season: 'Summer',
       difficulty: 'Medium'
@@ -31,17 +31,17 @@ export default function CropEducation() {
     {
       title: 'Modern Irrigation Techniques',
       duration: '15:30',
-      thumbnail: 'https://images.unsplash.com/photo-1591982394906-5fc11a3b3f76?w=400&h=300&fit=crop'
+      thumbnail: 'https://www.invest4land.com/wp-content/uploads/2021/11/Invest4Land-Agriculture-Real-Estate-Invest-Investment-Investing-Investor-Walnut-Farmlands-Managed-Farmland-Agrobusiness-Almond-Property-Almond-Farmlands2-12.jpg'
     },
     {
       title: 'Organic Farming Basics',
       duration: '12:45',
-      thumbnail: 'https://images.unsplash.com/photo-1592982573555-c10f4cd29a46?w=400&h=300&fit=crop'
+      thumbnail: 'https://community.earthytales.in/uploads/articles/Methods_Of_Organic_Farming1.jpg'
     },
     {
       title: 'Pest Management',
       duration: '18:20',
-      thumbnail: 'https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?w=400&h=300&fit=crop'
+      thumbnail: 'https://www.nifa.usda.gov/sites/default/files/styles/hero_image_small_1024w/public/2023-09/pests-pesticide.jpg?itok=D7c4ldn4'
     }
   ];
 

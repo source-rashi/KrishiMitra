@@ -28,7 +28,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center text-gray-600 dark:text-gray-400">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>support@farmassist.com</span>
+                <span>support@krishimitra.com</span>
               </div>
               <div className="flex items-center text-gray-600 dark:text-gray-400">
                 <MapPin className="w-4 h-4 mr-2" />
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8 text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; 2025 FarmAssist. All rights reserved.</p>
+          <p>&copy; 2025 KrishiItra. All rights reserved.</p>
         </div>
       </div>
     </footer>

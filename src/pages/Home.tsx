@@ -74,7 +74,7 @@ export default function Home() {
     },
     {
       title: 'Find Vendors',
-      image: 'https://images.unsplash.com/photo-1595074475099-3d0d12800130?w=400&h=300&fit=crop',
+      image: 'https://friscofreshmarket.com/wp-content/uploads/2024/07/Successful-Farmers-Market-Vendor.jpg',
       link: '/marketplace'
     },
     {
