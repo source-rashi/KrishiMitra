@@ -30,7 +30,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center space-x-3">
             <img
               src="src\components\SmartFarming.png"
-              alt=""
+              alt="Logo"
               className="w-8 h-8 rounded-full"
             />
             <span className="text-xl font-bold text-primary-600 dark:text-primary-400">
