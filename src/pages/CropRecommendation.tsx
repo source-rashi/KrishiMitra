@@ -47,7 +47,7 @@ export default function CropRecommendation() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="max-w-4xl mx-auto space-y-8 p-4"
+      className="max-w-6xl mx-auto space-y-8 p-4"
     >
       <div className="text-center mb-12">
         <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-200 mb-4">

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { User, Mail, Phone, MapPin, Edit, Camera, Leaf, Home, Check } from 'lucide-react';
+import { User, Mail, Phone, MapPin, Edit, Camera, Leaf, Home, Check, LogOut } from 'lucide-react'; // Import LogOut icon
 
 type UserProfile = {
   name: string;
@@ -18,12 +18,12 @@ type EditingState = {
 
 export default function Profile() {
   const [userProfile, setUserProfile] = useState<UserProfile>({
-    name: 'John Doe',
-    email: 'john.doe@example.com',
-    phone: '+91 98765 43210',
+    name: 'Krishi',
+    email: 'krishi.mitra@example.com',
+    phone: '+91 98774 58114',
     location: 'Mumbai, Maharashtra',
     avatar: 'https://img.freepik.com/free-vector/man-profile-account-picture_24908-81754.jpg',
-    farmName: 'Doe Farms',
+    farmName: 'Mitra Farms',
     cropsGrown: 'Wheat, Rice, Corn'
   });
 
@@ -74,6 +74,11 @@ export default function Profile() {
       };
       reader.readAsDataURL(e.target.files[0]);
     }
+  };
+
+  const handleLogout = () => {
+    // Implement your logout logic here
+    console.log("User logged out");
   };
 
   const renderField = (field: keyof UserProfile, label: string, icon: JSX.Element) => (
@@ -154,6 +159,17 @@ export default function Profile() {
           {renderField('farmName', 'Farm Name', <Home className="w-5 h-5 text-primary-500" />)}
           {renderField('cropsGrown', 'Crops Grown', <Leaf className="w-5 h-5 text-primary-500" />)}
         </div>
+      </div>
+
+      {/* Log Out Button at the bottom */}
+      <div className="text-center mt-6">
+        <button
+          onClick={handleLogout}
+          className="px-4 py-2 bg-red-500 text-white rounded-lg flex items-center justify-center mx-auto"
+        >
+          <LogOut className="w-4 h-4 mr-2" />
+          Log Out
+        </button>
       </div>
     </motion.div>
   );

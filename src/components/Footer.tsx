@@ -14,7 +14,7 @@ export default function Footer() {
               KrishiMitra
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Empowering farmers with technology and knowledge for sustainable agriculture.
+            Sow with Knowledge, Reap with Success! 🌱
             </p>
           </div>
           <div>

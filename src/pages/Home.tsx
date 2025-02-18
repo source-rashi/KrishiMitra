@@ -88,7 +88,7 @@ export default function Home() {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="space-y-8"
+      className="max-w-6xl mx-auto space-y-8 p-4"
     >
       {/* Search Section */}
       <div className="relative">
@@ -100,6 +100,11 @@ export default function Home() {
           className="w-full px-4 py-3 pl-12 rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 focus:ring-2 focus:ring-primary-500 focus:border-transparent"
         />
         <Search className="absolute left-4 top-3.5 text-gray-400 w-5 h-5" />
+      </div>
+
+      {/* Motivational Phrase */}
+      <div className="text-center text-xl font-semibold text-gray-800 dark:text-gray-200">
+        Sow with Knowledge, Reap with Success! 🌱
       </div>
 
       {/* Weather Card */}
