@@ -174,6 +174,7 @@ export default function Home() {
             transition={{ delay: index * 0.1 }}
             className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow"
           >
+            <a href={link.link}>
             <img
               src={link.image}
               alt={link.title}
@@ -190,8 +191,10 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            </a>
           </motion.div>
         ))}
+       
       </div>
 
       {/* Announcements */}
