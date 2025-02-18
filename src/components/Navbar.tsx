@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src="Smart Farming.png"
+              src="SmartFarming.png"
               alt="Logo"
               className="w-8 h-8 rounded-full"
             />
