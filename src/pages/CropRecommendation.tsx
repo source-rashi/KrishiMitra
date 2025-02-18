@@ -10,7 +10,7 @@ const cropRecommendations = [
   {
     name: 'Rice',
     description: 'Rice is a water-intensive crop that thrives in wet conditions.',
-    image: 'https://images.unsplash.com/photo-1536617621572-1d5f1e6269a0?w=400&h=300&fit=crop'
+    image: 'https://www.isayorganic.com/cdn/shop/files/iso__0005_WhiteRice1_720x.jpg?v=1736270108'
   },
   {
     name: 'Cotton',
