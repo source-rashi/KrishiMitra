@@ -26,7 +26,7 @@ export default function VendorMarketplace() {
       category: 'equipment',
       rating: 4.8,
       location: 'Delhi, NCR',
-      image: 'https://images.unsplash.com/photo-1592982573601-68227310a1f6?w=400&h=300&fit=crop',
+      image: 'https://static.wixstatic.com/media/ba57c3_8c33a77b4b0b403bb7754d0489ba616d~mv2.jpg/v1/fill/w_1110,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ba57c3_8c33a77b4b0b403bb7754d0489ba616d~mv2.jpg',
       products: ['Tractors', 'Harvesters', 'Irrigation Systems'],
       contact: {
         phone: '+91 98765 43211',
@@ -39,7 +39,7 @@ export default function VendorMarketplace() {
       category: 'fertilizers',
       rating: 4.3,
       location: 'Bangalore, Karnataka',
-      image: 'https://images.unsplash.com/photo-1595074475099-3d0d12800130?w=400&h=300&fit=crop',
+      image: 'https://theplaidzebra.com/wp-content/uploads/2015/08/1_urban-farm-offices.jpg',
       products: ['Organic Compost', 'Bio Fertilizers', 'Soil Supplements'],
       contact: {
         phone: '+91 98765 43212',
