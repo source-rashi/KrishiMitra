@@ -29,8 +29,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src="SmartFarming.png"
-              alt="Logo"
+              src="src\components\SmartFarming.png"
+              alt=""
               className="w-8 h-8 rounded-full"
             />
             <span className="text-xl font-bold text-primary-600 dark:text-primary-400">
